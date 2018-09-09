@@ -1,22 +1,21 @@
 body {
-    width: 100%;
 }
 
 .meditate {
-    float: right;
-    position: relative;
-    top: 50px; 
-    right: 70px;
     height: auto;
     width: 350px;
+    box-shadow: 4px 3px 7px black;
 }
 
 .heading {
     float: right;
     position: relative;
-    font-size: 200;
-    top: 500px;
-    left: 200px
+    top: 50px; 
+    right: 70px;
+}
+
+.heading > h1 {
+    font-size: 50px;
 }
 
 .sheet {
