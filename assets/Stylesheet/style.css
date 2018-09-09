@@ -1,0 +1,30 @@
+body {
+    width: 100%;
+}
+
+.meditate {
+    float: right;
+    position: relative;
+    top: 50px; 
+    right: 70px;
+    height: auto;
+    width: 350px;
+}
+
+.heading {
+    float: right;
+    position: relative;
+    font-size: 200;
+    top: 500px;
+    left: 200px
+}
+
+.sheet {
+    position: relative;
+    float: left;
+    top: 85px;
+    left: 30px;
+    background-image: url("../Images/snow_texture.jpg");
+    height: 600px;
+    width: 50%;
+}
