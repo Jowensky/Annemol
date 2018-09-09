@@ -1,11 +1,9 @@
 body {
+    background: url("../Images/maxresdefault.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.meditate {
-    height: auto;
-    width: 350px;
-    box-shadow: 4px 3px 7px black;
-}
 
 .heading {
     float: right;
@@ -14,16 +12,11 @@ body {
     right: 70px;
 }
 
-.heading > h1 {
-    font-size: 50px;
-}
-
 .sheet {
     position: relative;
     float: left;
     top: 85px;
     left: 30px;
-    background-image: url("../Images/snow_texture.jpg");
     height: 600px;
     width: 50%;
 }
