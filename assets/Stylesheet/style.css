@@ -27,5 +27,22 @@ body {
     position: relative;
     float: left;
     left: 100px;
-    top: 5px
+    top: 5px;
+}
+
+.accordion {
+    background-image: url(../Images/snow_texture.jpg);
+    position: relative;
+    top: 65px;
+    left: 150px;
+    padding: 0 10px;
+    max-height: 0;
+    width: 250px;
+    overflow: hidden;
+    transition: all .4s ease;
+}
+
+.accordion.open {
+    padding: 10px;
+    max-height: auto;
 }
