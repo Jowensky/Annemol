@@ -20,3 +20,12 @@ body {
     height: 600px;
     width: 50%;
 }
+
+.ball {
+    height: 50x;
+    width: 50px;
+    position: relative;
+    float: left;
+    left: 100px;
+    top: 5px
+}
