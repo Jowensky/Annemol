@@ -4,13 +4,12 @@ body {
     background-repeat: no-repeat;
 }
 
-.ball {
-    height: 50x;
-    width: 50px;
+.m {
+    height: 210x;
+    width: 200px;
     position: relative;
-    float: left;
-    left: 100px;
-    top: 5px;
+    top: 65px;
+    left: 150px;
 }
 
 .accordion {
@@ -18,8 +17,17 @@ body {
     padding: 10px;
     position: relative;
     height: auto;
-    width: 250px;
-    top: 65px;
-    left: 150px;
+    width: 350px;
+    left: 270px;
     opacity: .5;
+}
+
+#title {
+    position: relative;
+    float: right;
+    top: 0px;
+    right: 340px;
+    font-size: 45px;
+    color: rgb(35, 41, 40);
+    font-family: 'Open Sans Condensed', sans;
 }
