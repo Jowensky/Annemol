@@ -14,13 +14,33 @@ body {
 }
 
 .accordion {
-    background-image: url("../Images/snow_texture.jpg");
     padding: 10px;
     position: relative;
     height: auto;
     width: 650px;
     left: 270px;
+    color: black;
+    z-index: 2;
+}
+
+.accordion:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
     opacity: .5;
+    background-image: url('../Images/snow_texture.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 #title {
@@ -32,3 +52,4 @@ body {
     color: rgb(35, 41, 40);
     font-family: 'Open Sans Condensed', sans;
 }
+
