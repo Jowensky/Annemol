@@ -4,11 +4,16 @@ body {
     background-repeat: no-repeat;
 }
 
+h1 {
+    font-family: 'Titillium Web', serif;
+    font-size: 75px;
+    color: rgba(228, 226, 226, 0.968);
+}
 
 .heading {
     float: right;
     position: relative;
-    top: 50px; 
+    top: 10px; 
     right: 70px;
 }
 
@@ -30,19 +35,17 @@ body {
     top: 5px;
 }
 
-.accordion {
-    background-image: url(../Images/snow_texture.jpg);
-    position: relative;
-    top: 65px;
-    left: 150px;
-    padding: 0 10px;
-    max-height: 0;
-    width: 250px;
-    overflow: hidden;
-    transition: all .4s ease;
+.ball:hover {
+    display: none;
 }
 
-.accordion.open {
+.accordion {
+    background-image: url("../Images/snow_texture.jpg");
     padding: 10px;
-    max-height: auto;
+    position: relative;
+    height: auto;
+    width: 250px;
+    top: 65px;
+    left: 150px;
+    opacity: .5;
 }
