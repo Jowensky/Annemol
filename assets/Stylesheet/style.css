@@ -10,6 +10,7 @@ body {
     position: relative;
     top: 65px;
     left: 150px;
+    cursor: pointer;
 }
 
 .accordion {
